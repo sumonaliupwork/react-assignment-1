@@ -4,14 +4,19 @@ import './Cart.css';
 const Cart = (props) => {
     const { cart } = props;
     let names = '';
+    let totalQuantity = 0;
     let total = 0;
     for (const product of cart) {
-        total = total + product.salary;
+        if (!product.quantity) {
+            product.quantity = 1;
+        }
+        total = total + product.salary * product.quantity;
+        totalQuantity = totalQuantity + product.quantity;
         names = names + product.name;
     }
     return (
         <div>
-            <h3>Add Player: {props.cart.length} </h3>
+            <h3>Add Player: {totalQuantity} </h3>
             <h3>Total Cost: {total}</h3>
             <ul className='names'>
                 <li>{names}</li>
