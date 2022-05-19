@@ -1,0 +1,49 @@
+.poet-container {
+    background: #047a387a;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px darkgrey;
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+}
+
+.poet-container img {
+    width: 36%;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+h2.poet-name {
+    font-size: 25px;
+}
+
+h4.poet-id {
+    font-size: 20px;
+}
+
+h3.poet-depertment {
+    font-size: 15px;
+}
+
+h4.poet-age {
+    font-size: 20px;
+}
+
+h2.poet-salary {
+    font-size: 20px;
+}
+
+button.addToCart {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 4px 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px 0px;
+    background: orange;
+}
+
+.addToCart:hover {
+    background-color: gainsboro;
+}

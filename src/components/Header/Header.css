@@ -1,0 +1,12 @@
+.header-container {
+    margin: auto;
+    background: gainsboro;
+}
+
+.header-name {
+    font-size: 47px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 21px 0px;
+    color: forestgreen;
+}
