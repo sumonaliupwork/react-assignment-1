@@ -16,7 +16,6 @@ const Cart = (props) => {
             <ul className='names'>
                 <li>{names}</li>
             </ul>
-            Md.ahsan ullah
         </div>
     );
 };
